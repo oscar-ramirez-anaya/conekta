@@ -1,0 +1,12 @@
+beam
+beam/
+beam/*
+.vscode
+.vscode/
+.vscode/*
+.metals
+.metals/
+.metals/*
+.ipynb_checkpoints
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
