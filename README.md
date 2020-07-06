@@ -34,7 +34,7 @@ gs:// (para gcp)  |  hdfs:// para hadoop
 
 - 1.5  Dispersión de la información : 
 se creo una tabla con los resultados mostrando distintas variantes
-![Alt text]( images/resultado.png)
+![Alt text]( images/resultado.PNG)
 
 #### Porque apache beam?
 
