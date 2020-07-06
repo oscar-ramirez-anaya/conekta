@@ -30,7 +30,11 @@ sh ./activate.sh
 gs:// (para gcp)  |  hdfs:// para hadoop 
 ``` 
 
-- 1.3 Transformación : En este paso se planifico el poder hacer dos lineas de procesamiento, debido a que la db de destino es SQL lo que se recomienda es un modelo de tipo estrella, para  poder customizar en postgreSQL con el motor de (analytic engine). Proceso de dimenciones y tabla de hechos. Los retos encontrados es la mala calidad de los datos (numeros infinitos , numeros muy extensos , transacciones sin ids, catalogo duplicados y mal escritos)
+- 1.3 , 4  Transformación : En este paso se planifico el poder hacer dos lineas de procesamiento, debido a que la db de destino es SQL lo que se recomienda es un modelo de tipo estrella, para  poder customizar en postgreSQL con el motor de (analytic engine). Proceso de dimenciones y tabla de hechos. Los retos encontrados es la mala calidad de los datos (numeros infinitos , numeros muy extensos , transacciones sin ids, catalogo duplicados y mal escritos)
+
+- 1.5  Dispersión de la información : 
+se creo una tabla con los resultados mostrando distintas variantes
+![Alt text]( images/resultado.png)
 
 #### Porque apache beam?
 
