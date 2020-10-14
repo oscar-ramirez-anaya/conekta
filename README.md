@@ -1,10 +1,8 @@
-# Prueba Tecnica Conekta
+# Modelo antifraude Conekta
 
 Prueba tecnica - Data Engineer.pdf
 ##### Objetivo: 
-Crear un data pipeline con las herramientas disponibles por el usuario
-Los ejercicios de programación tienen que incluir los procedimientos de instalación y ejecución
-de las herramientas a utilizar y los scripts que realizaran los procedimientos.
+Crear un data pipeline para poder detectar fraudes en tiempo real
 
 ### Pre-Requisitos
 
